@@ -1,6 +1,6 @@
 # About the tasks
 
-The first task is in src/helpers/typedFreeze
+The first task is in src/helpers/typedFreeze.\
 The second task is the entire project
 
 # Getting Started with Create React App
