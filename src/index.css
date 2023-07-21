@@ -1,13 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+:root {
+  --primary: #5870e0;
+  --primary-light: #6b7fdb;
+  --gray1: #555770;
+  --gray2: #8f90a6;
+  --gray3: #c7c9d9;
+  --gray4: #e4e4eb;
+  --gray-light: #eee;
+  --white: #ffffff;
+  --black: #28293d;
+  --borderPrimaryRadious: 6px;
+  --primaryPaddings: 8px 12px;
+  --font-size: 14px;
+  --font-title: 18px;
+  --font-small: 12px;
+  --line-height: 24px;
+  --font-common-weight: 400;
+  --font-mid-weight: 500;
+  --font-bold-weight: 600;
+}
+
+::placeholder {
+  color: var(--gray2);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--gray2);
+}
+
+::-ms-input-placeholder {
+  color: var(--gray2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-weight: var(--font-common-weight);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

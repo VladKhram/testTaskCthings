@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+}
+
+.body {
+  margin-top: 4px;
+  background-color: var(--white);
+  border-radius: var(--borderPrimaryRadious);
+  border: solid 1px var(--gray4);
+  overflow: hidden;
+  position: fixed;
+}
+
+.options {
+  overflow-y: auto;
+  padding: 0;
+  width: 260px;
+  height: 220px;
+  margin: 0;
+}
+
+/* Flags */
+:global .fi {
+  border: solid 1px var(--gray4);
+  border-radius: 2px;
+  font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.title {
+  font-size: var(--font-title);
+  color: var(--black);
+  margin-bottom: 16px;
+  font-weight: var(--font-bold-weight);
+}
+
+.lable {
+  font-size: var(--font-small);
+  color: var(--gray1);
+  margin-left: 6px;
+  font-weight: var(--font-mid-weight);
+  margin-bottom: 2px;
+}
+
+.numberRow {
+  display: flex;
+  align-items: center;
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+}
+
+.maskedInput {
+  width: 400px;
+  margin-left: 10px;
+}

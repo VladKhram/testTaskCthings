@@ -1,0 +1,23 @@
+.button {
+  min-width: 116px;
+  height: 32px;
+  border-radius: var(--borderPrimaryRadious);
+  border: none;
+  cursor: pointer;
+  font-weight: var(--font-mid-weight);
+}
+.primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+.primary:hover {
+  background-color: var(--primary-light);
+}
+.secondary {
+  color: var(--black);
+  background-color: var(--white);
+  border: solid 1px var(--primary);
+}
+.secondary:hover {
+  background-color: var(--gray-light);
+}

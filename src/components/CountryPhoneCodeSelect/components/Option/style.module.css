@@ -1,0 +1,16 @@
+.wrapper li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: var(--primaryPaddings);
+}
+.wrapper li:hover {
+  background-color: var(--gray-light);
+}
+.flag {
+  margin-right: 12px;
+}
+.optionCode {
+  font-weight: var(--font-mid-weight);
+}

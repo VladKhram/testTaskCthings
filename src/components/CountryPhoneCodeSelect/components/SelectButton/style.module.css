@@ -1,0 +1,16 @@
+.selectButton {
+  padding: var(--primaryPaddings);
+  border-radius: var(--borderPrimaryRadious);
+  border: solid 1px var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 80px;
+}
+.selectButton .arrow {
+  font-size: 18px;
+  line-height: var(--line-height);
+  color: var(--gray2);
+  text-align: center;
+}

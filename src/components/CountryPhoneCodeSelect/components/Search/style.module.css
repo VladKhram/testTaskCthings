@@ -1,0 +1,19 @@
+.search {
+  position: relative;
+  padding: var(--primaryPaddings);
+  border-bottom: solid 1px var(--gray4);
+}
+.search span {
+  position: absolute;
+  left: 14px;
+  font-size: 18px;
+  line-height: var(--line-height);
+  color: var(--primary);
+}
+.search input {
+  outline: none;
+  padding: 0 10px 0 30px;
+  border: none;
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+}
