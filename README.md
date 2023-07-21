@@ -1,3 +1,8 @@
+# About the tasks
+
+The first task is in src/helpers/typedFreeze
+The second task is the entire project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
